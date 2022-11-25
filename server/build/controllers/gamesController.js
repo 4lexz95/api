@@ -17,7 +17,7 @@ class GamesController {
     list(req, res) {
         return __awaiter(this, void 0, void 0, function* () {
             try {
-                const games = yield database_1.default.then((r) => r.query('Select * from  games'));
+                const games = yield database_1.default.then((r) => r.query('Select * from  gamesdb2022.games'));
                 res.json(games);
             }
             catch (e) {

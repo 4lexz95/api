@@ -9,3 +9,5 @@ create table games(
     create_at timestamp default current_timestamp
 );
 
+alter user 'root' identified with mysql_native_password by 'root';
+flush privileges

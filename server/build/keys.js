@@ -5,6 +5,6 @@ exports.default = {
         host: 'localhost',
         user: 'root',
         password: 'root',
-        database: 'gamesdb2002'
+        database: 'gamesdb2022'
     }
 };
